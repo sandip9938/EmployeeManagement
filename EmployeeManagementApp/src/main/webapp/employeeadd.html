@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>AddEmployee</title>
+</head>
+<style>
+body {
+	background-color: #352f2f;
+	color: rgb(240, 238, 234);
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-weight: 400;
+}
+
+input {
+	margin: 10px;
+}
+
+button {
+	justify-content: center;
+	margin: 10px;
+	cursor: pointer;
+	font-family: 'Times New Roman', Times, serif;
+	background-color: #212121;
+	letter-spacing: 0.2px;
+	color: antiquewhite;
+	border: 2px solid rgb(182, 182, 223);
+	padding: 5px;
+}
+</style>
+<body>
+	<form action="employeeadd" method="post">
+		Employee Id : <input type="text" name="eid" placeholder="Employee Id"><br>
+		Employee Name: <input type="text" name="ename"
+			placeholder="Employee Name"><br> Employee Designation :
+		<input type="text" name="edesg" placeholder="  Employee Designation"><br>
+		Employee Basic Salary : <input type="number" name="ebsal"
+			placeholder=" Employee Basic Salary"><br><br> <input
+			type="submit" value="AddEmployee">
+			
+	</form>
+</body>
+</html>
